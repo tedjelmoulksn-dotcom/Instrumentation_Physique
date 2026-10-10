@@ -1,20 +1,25 @@
-# Physical Instrumentation Laboratories
+# Physical Instrumentation
 
-Laboratory reports on electrical probe measurements, spectrophotometry and nuclear magnetic resonance spectroscopy. A separate MATLAB exercise explores a quantum-well model.
+Experimental measurement reports and MATLAB modelling exercises covering spectroscopy, electrical characterization and quantum confinement.
 
 ## Repository guide
 
-| Location | Contents |
-|---|---|
-| [docs/](docs/) | Probe-measurement, spectrophotometry and NMR reports |
-| [studies/](studies/) | Quantum-physics MATLAB exercise |
+| Area | Material |
+| --- | --- |
+| [Measurement reports](docs/) | Probe-based measurements, spectrophotometry and NMR spectroscopy |
+| [Quantum-well studies](studies/quantum_well/) | MATLAB models, including the finite-difference exercise relocated from Divers_TP |
+| [Historical report](archive/biosensing_original/) | Original biosensing document retained with its provenance |
 
-## Getting started
+## Technical focus
 
-Start with the reports in `docs/` for the measurement setups and interpretation. Run the quantum-physics script in MATLAB to explore its numerical model.
+The laboratory reports document measurement methods and interpretation of physical observations. The quantum-well scripts provide a separate numerical study of confinement; they do not acquire measurements from instruments.
 
-## Project context
+The finite-difference exercise has its own source and guide under `studies/quantum_well/finite_difference/`. It is kept separate from `tp_physqiue_quantique.m` because these are distinct source variants.
 
-These are group laboratory studies. SPR/SERS reports, tables and optical figures are collected in [Bio_capteur](https://github.com/tedjelmoulksn-dotcom/Bio_capteur).
+## Use
 
-The original SPR/SERS ODT report is retained in `archive/biosensing_original/`; related workbooks and optical studies are grouped in Bio_capteur.
+Read the relevant laboratory report for the experimental setup and measurement conditions. Open the quantum-well scripts in MATLAB, review their parameters and run each study independently.
+
+For resistance-temperature curves and electrical sensor conditioning, see [Instrumentation Capteurs](https://github.com/tedjelmoulksn-dotcom/Instrumentation_Capteurs). The biosensing project is documented separately in [Bio capteur](https://github.com/tedjelmoulksn-dotcom/Bio_capteur).
+
+Original laboratory documents retain their original language; the repository navigation and explanations are in English.
