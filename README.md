@@ -1,18 +1,25 @@
-# TP d'instrumentation physique
+# Physical Instrumentation
 
-Deux comptes rendus de travaux pratiques réalisés en groupe.
+Experimental measurement reports and MATLAB modelling exercises covering spectroscopy, electrical characterization and quantum confinement.
 
-| Document | Thème | Groupe |
-|---|---|---|
-| `tp3_mesures_sous_pointes_spectrophotometrie` | Mesures électriques sous pointes et spectrophotométrie | 4 personnes |
-| `tp_spectroscopie_rmn` | Spectroscopie par résonance magnétique nucléaire | 6 personnes |
+## Repository guide
 
-## À documenter
+| Area | Material |
+| --- | --- |
+| [Measurement reports](docs/) | Probe-based measurements, spectrophotometry and NMR spectroscopy |
+| [Quantum-well studies](studies/quantum_well/) | MATLAB models, including the finite-difference exercise relocated from Divers_TP |
+| [Historical report](archive/biosensing_original/) | Original biosensing document retained with its provenance |
 
-Montages, grandeurs mesurées, traitements et conclusions sont à résumer ici à partir des comptes rendus.
+## Technical focus
 
-## Avant publication
+The laboratory reports document measurement methods and interpretation of physical observations. The quantum-well scripts provide a separate numerical study of confinement; they do not acquire measurements from instruments.
 
-- Travaux collectifs : obtenir l'accord des coauteurs et indiquer ta contribution.
-- Exporter les Google Docs en PDF.
-- Classé dans `To_Review` : pas de code ; utile seulement pour illustrer la partie « instrumentation et mesure » du parcours.
+The finite-difference exercise has its own source and guide under `studies/quantum_well/finite_difference/`. It is kept separate from `tp_physqiue_quantique.m` because these are distinct source variants.
+
+## Use
+
+Read the relevant laboratory report for the experimental setup and measurement conditions. Open the quantum-well scripts in MATLAB, review their parameters and run each study independently.
+
+For resistance-temperature curves and electrical sensor conditioning, see [Instrumentation Capteurs](https://github.com/tedjelmoulksn-dotcom/Instrumentation_Capteurs). The biosensing project is documented separately in [Bio capteur](https://github.com/tedjelmoulksn-dotcom/Bio_capteur).
+
+Original laboratory documents retain their original language; the repository navigation and explanations are in English.
