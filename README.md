@@ -2,6 +2,10 @@
 
 Experimental measurement reports and MATLAB modelling exercises covering spectroscopy, electrical characterization and quantum confinement.
 
+![Instrumentation Physique project overview](assets/cold-white-led-spectrum.png)
+
+*Cold-white LED spectrum extracted unchanged from the original [spectrophotometry report](docs/tp3_mesures_sous_pointes_spectrophotometrie.docx).*
+
 ## Repository guide
 
 | Area | Material |
