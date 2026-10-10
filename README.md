@@ -1,18 +1,20 @@
-# TP d'instrumentation physique
+# Physical Instrumentation Laboratories
 
-Deux comptes rendus de travaux pratiques réalisés en groupe.
+Laboratory reports on electrical probe measurements, spectrophotometry and nuclear magnetic resonance spectroscopy. A separate MATLAB exercise explores a quantum-well model.
 
-| Document | Thème | Groupe |
-|---|---|---|
-| `tp3_mesures_sous_pointes_spectrophotometrie` | Mesures électriques sous pointes et spectrophotométrie | 4 personnes |
-| `tp_spectroscopie_rmn` | Spectroscopie par résonance magnétique nucléaire | 6 personnes |
+## Repository guide
 
-## À documenter
+| Location | Contents |
+|---|---|
+| [docs/](docs/) | Probe-measurement, spectrophotometry and NMR reports |
+| [studies/](studies/) | Quantum-physics MATLAB exercise |
 
-Montages, grandeurs mesurées, traitements et conclusions sont à résumer ici à partir des comptes rendus.
+## Getting started
 
-## Avant publication
+Start with the reports in `docs/` for the measurement setups and interpretation. Run the quantum-physics script in MATLAB to explore its numerical model.
 
-- Travaux collectifs : obtenir l'accord des coauteurs et indiquer ta contribution.
-- Exporter les Google Docs en PDF.
-- Classé dans `To_Review` : pas de code ; utile seulement pour illustrer la partie « instrumentation et mesure » du parcours.
+## Project context
+
+These are group laboratory studies. SPR/SERS reports, tables and optical figures are collected in [Bio_capteur](https://github.com/tedjelmoulksn-dotcom/Bio_capteur).
+
+The original SPR/SERS ODT report is retained in `archive/biosensing_original/`; related workbooks and optical studies are grouped in Bio_capteur.
